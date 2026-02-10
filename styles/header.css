@@ -1,0 +1,46 @@
+header {
+    padding-block: 32px;
+    font: var(--text-md);
+
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    #profile {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+        img{
+            width: 172px;
+        }
+
+        div {
+            max-width: 384px;
+
+            h1 {
+                font: var(--text-lg);
+                color: var(--text-color-primary);
+                margin-bottom: 8px;
+            }
+        }
+    }
+
+    .info {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        width: 280px;
+
+        li {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+    }
+}
